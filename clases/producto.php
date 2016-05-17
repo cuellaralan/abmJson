@@ -24,6 +24,11 @@ class Producto
 		return $this->pathFoto;
 	}
 
+	public function GetPerecedero()
+	{
+		return $this->perecedero;
+	}
+
 	public function SetCodBarra($valor)
 	{
 		$this->codBarra = $valor;
@@ -35,6 +40,11 @@ class Producto
 	public function SetPathFoto($valor)
 	{
 		$this->pathFoto = $valor;
+	}
+
+	public function SetPerecedero($valor)
+	{
+		$this->perecedero = $valor;
 	}
 
 //--------------------------------------------------------------------------------//
@@ -93,7 +103,7 @@ class Producto
 			//http://www.w3schools.com/php/func_string_explode.asp
 			$productos[0] = trim($productos[0]);
 			if($productos[0] != ""){
-				$ListaDeProductosLeidos[] = new Producto($productos[0], $productos[1],$productos[2]);
+				$ListaDeProductosLeidos[] = new Producto($productos[0], $productos[1],$productos[2],$productos[3]);
 			}
 		}
 		fclose($archivo);

@@ -3,7 +3,7 @@ $(document).ready(function(){
 	MostrarGrilla();
 	
 });
-
+ 	
 function MostrarGrilla(){
 	
     var pagina = "./administracion.php";
@@ -98,11 +98,12 @@ function BorrarFoto(){
 }
 
 function AgregarProducto(){
-	 alert($("input [type='radio']:checked").val());
+	 //alert($("input [type='radio']:checked").val());
+	 alert($('input:radio[name=perecedero]:checked').val());
 	//alert($("input [name: 'perecedero']") );
 	//alert($("#perecedero").val());
 
-	var radio = $("#perecedero").val();
+	var radio = $('input:radio[name=perecedero]:checked').val();
     var pagina = "./administracion.php";
 	var codBarra = $("#codBarra").val();
 	var nombre = $("#nombre").val();
@@ -113,6 +114,8 @@ function AgregarProducto(){
 	producto.nombre = nombre;
 	producto.codBarra = codBarra;
 	producto.archivo = archivo;
+	producto.perecedero= radio;
+
 
 	if(!Validar(producto)){
 		alert("Debe completar TODOS los campos!!!");

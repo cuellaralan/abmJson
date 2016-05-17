@@ -1,16 +1,13 @@
-123 - TOMATES EN LATA - imagenGIF.gif
- - 
-456 - POLENTA x 500 - constelacion.jpg
- - 
-951235 - buhito - 20160420_004257.jpg
- - 
-951 - florcita - 20160420_004539.jpg
- - 
-777 - pinguinito - 20160420_004821.jpg
- - 
-789 - galaxia - 20160420_005131.jpg
- - 
-12313123 - asdasdasda - 20160504_022618.jpg
- - 
-123123123 - asdasdasdasd - 20160504_030229.jpg
- - 
+123 - TOMATES EN LATA - imagenGIF.gif - perecedero
+456 - POLENTA x 500 - constelacion.jpg - perecedero
+951235 - buhito - 20160420_004257.jpg - No perecedero
+951 - florcita - 20160420_004539.jpg - perecedero
+777 - pinguinito - 20160420_004821.jpg - perecedero
+789 - galaxia - 20160420_005131.jpg - perecedero
+12313123 - asdasdasda - 20160504_022618.jpg - perecedero
+123123123 - asdasdasdasd - 20160504_030229.jpg - perecedero
+florcita - 1234431 - 20160517_023801.jpg - perecedero
+132132 - qwerty - 20160517_024542.jpg - perecedero
+1468 - chinchilin - 20160517_024618.jpg - perecedero
+321321 - chivo - 20160517_030342.jpg - perecedero
+123123123432 - montehielo - 20160517_030948.jpg - perecedero
